@@ -35,6 +35,8 @@ function limpiar() {
     // Ocultar el botón "Copiar"
     const botonCopiar = document.getElementById("copiar");
     botonCopiar.style.display = "none";
+        // Cambiar el texto del botón a "¡Copiado!"
+    botonCopiar.innerText = "Copiar";
 }
 
 
